@@ -1,0 +1,6 @@
+K_N_R = input('K_N_R: ')
+K = int(K_N_R.split()[0])
+N = int(K_N_R.split()[1])
+R = int(K_N_R.split()[2])
+num = int(N*str(K))
+print(num*R)
