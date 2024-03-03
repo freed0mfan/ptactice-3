@@ -1,2 +1,6 @@
-import turtle
-
+raw = input('Enter number:')
+try:
+    num = int(raw)
+    print(num)
+except ValueError:
+    pass
